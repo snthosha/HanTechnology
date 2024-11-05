@@ -1,0 +1,40 @@
+header{
+  width: 80%;
+  height: 20%;
+
+}
+a{
+  font-size: large;
+  font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .header .logo {
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff6600; 
+  }
+  
+  .header nav a {
+    margin-right: 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .header .quote-button {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
